@@ -26,3 +26,9 @@ Replace the above lines with these :
         /bin/sh $HOME/.config/bspwm/resize/expandy.sh
 
 NOTE : Make sure you reload your sxhkd & you don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
+
+### USAGE :
+alt + h -> Shrink windows horizontally.
+alt + l -> Expand windows horizontally.
+alt + h -> Shrink windows vertically.
+alt + j -> Expand windows vertically.
