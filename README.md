@@ -25,4 +25,4 @@ Replace the above lines with these :
     alt + j
         /bin/sh $HOME/.config/bspwm/resize/expandy.sh
 
-NOTE : You don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
+NOTE : Make sure you reload your sxhkd & you don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
