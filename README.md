@@ -2,7 +2,7 @@
 ## BSPWM's resizing suckssss
 To use i3 like resize in bspwm in linux, proceed with these commands :
 
-    git clone https://github.com/zim0369/bspwm_i3size $HOME/.config/bspwm/
+    git clone https://github.com/zim0369/bspwm_i3size $HOME/.config/bspwm/resize/
     chmod +rwx $HOME/.config/bspwm/bspwm_i3size/*
 In your sxhkdrc( remove these default lines ) :
 
@@ -17,12 +17,12 @@ Replace the above lines with these :
 
     # i3 like resizing
     alt + h
-        /bin/sh $HOME/.config/bspwm/bspwm_i3size/shrinkx.sh
+        /bin/sh $HOME/.config/bspwm/resize/shrinkx.sh
     alt + l
-        /bin/sh $HOME/.config/bspwm/bspwm_i3size/expandx.sh
+        /bin/sh $HOME/.config/bspwm/resize/expandx.sh
     alt + k
-        /bin/sh $HOME/.config/bspwm/bspwm_i3size/shrinky.sh
+        /bin/sh $HOME/.config/bspwm/resize/shrinky.sh
     alt + j
-        /bin/sh $HOME/.config/bspwm/bspwm_i3size/expandy.sh
+        /bin/sh $HOME/.config/bspwm/resize/expandy.sh
 
 NOTE : You don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
