@@ -29,6 +29,9 @@ NOTE : Make sure you reload your sxhkd & you don't have to toggle any resize mod
 
 ### USAGE :
 alt + h -> Shrink windows horizontally.
+
 alt + l -> Expand windows horizontally.
+
 alt + h -> Shrink windows vertically.
+
 alt + j -> Expand windows vertically.
