@@ -3,6 +3,7 @@
 To use i3 like resize in bspwm in linux, proceed with these commands :
 
     git clone https://github.com/zim0369/bspwm_i3size.git $HOME/.config/bspwm/resize/
+    
     chmod +rwx $HOME/.config/bspwm/resize/*
 In your sxhkdrc( remove these default lines ) :
 
