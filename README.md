@@ -24,3 +24,5 @@ Replace these lines with :
         /bin/sh $HOME/.config/bspwm/i3_resize/shrinky.sh
     alt + j
         /bin/sh $HOME/.config/bspwm/i3_resize/expandy.sh
+
+NOTE : You don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
