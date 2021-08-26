@@ -4,7 +4,7 @@ To use i3 like resize in bspwm in linux, proceed with these commands :
 
     git clone https://github.com/zim0369/bspwm_i3size $HOME/.config/bspwm/
     chmod +rwx $HOME/.config/bspwm/bspwm_i3size/*
-In your sxhkdrc(remove the lines below) :
+In your sxhkdrc( remove the lines below ) :
 
     # contract a window by moving one of its side inward
     alt + {h,j,k,l}
