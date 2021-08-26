@@ -17,12 +17,12 @@ Replace the above lines with these :
 
     # i3 like resizing
     alt + h
-        /bin/sh $HOME/.config/bspwm/i3_resize/shrinkx.sh
+        /bin/sh $HOME/.config/bspwm/bspwm_i3size/shrinkx.sh
     alt + l
-        /bin/sh $HOME/.config/bspwm/i3_resize/expandx.sh
+        /bin/sh $HOME/.config/bspwm/bspwm_i3size/expandx.sh
     alt + k
-        /bin/sh $HOME/.config/bspwm/i3_resize/shrinky.sh
+        /bin/sh $HOME/.config/bspwm/bspwm_i3size/shrinky.sh
     alt + j
-        /bin/sh $HOME/.config/bspwm/i3_resize/expandy.sh
+        /bin/sh $HOME/.config/bspwm/bspwm_i3size/expandy.sh
 
 NOTE : You don't have to toggle any resize mode in bspwm like i3's. Just start resizing the windows with alt+{h,j,k,l}
