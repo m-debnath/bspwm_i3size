@@ -13,7 +13,7 @@ In your sxhkdrc( remove the lines below ) :
     # expand a window by moving one of its side outward
     alt + shift + {h,j,k,l}
     	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-Replace these lines with lines below :
+Replace the above lines with these :
 
     # i3 like resizing
     alt + h
